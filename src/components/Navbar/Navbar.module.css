@@ -1,0 +1,62 @@
+.navbarContainer {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+/* left frame */
+.leftFrameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 300px;
+  height: 22.4px;
+  margin: 28px;
+  margin-left: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  font-size: 1.5rem;
+  color: #965efb;
+}
+
+/* right frame */
+.rightFrameContainer {
+  width: 239px;
+  height: 40px;
+  margin: 28px;
+  margin-right: 40px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.langBtn {
+  width: 92px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.walletBtn {
+  width: 83px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
