@@ -1,12 +1,11 @@
 import React from "react";
+import Details from "./Details/Details";
 import styles from "./Profile.module.css";
 
 const Profile = () => {
   return (
     <div className={styles.profileContainer}>
-      <div className={styles.profileDetailscontainer}>
-        
-      </div>
+      <Details />
     </div>
   );
 };
