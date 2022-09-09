@@ -23,8 +23,14 @@ a {
   color: black;
 }
 .logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
   color: #965efb;
+}
+.talk {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 /* right frame */
@@ -51,12 +57,15 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
 }
 .walletBtn {
+  font-size: 14px;
   width: 83px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-weight: bold;
+  font-weight: 700;
 }

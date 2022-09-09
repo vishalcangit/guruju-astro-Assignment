@@ -3,9 +3,9 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import React from "react";
 import { Link } from "react-router-dom";
-import avatar from "../../assets/Avatar.png";
-import wallet from "../../assets/icon-wallet.svg";
-import styles from "./Navbar.module.css";
+import avatar from "../../../assets/Avatar.png";
+import wallet from "../../../assets/icon-wallet.svg";
+import styles from "../Navbar.module.css";
 
 const RightFrame = () => {
   return (

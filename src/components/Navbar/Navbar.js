@@ -1,7 +1,7 @@
 import React from "react";
-import LeftFrame from "./LeftFrame";
+import LeftFrame from "./Frames/LeftFrame";
+import RightFrame from "./Frames/RightFrame";
 import styles from "./Navbar.module.css";
-import RightFrame from "./RightFrame";
 
 const Navbar = () => {
   return (
