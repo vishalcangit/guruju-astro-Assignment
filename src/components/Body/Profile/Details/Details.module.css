@@ -77,6 +77,9 @@
   font-weight: 400;
   font-size: 14px;
   text-justify: distribute;
+  color: #616161;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .picsContainer {
   margin: 20px 0;
@@ -84,13 +87,14 @@
   align-items: center;
   justify-content: flex-start;
   position: relative;
+  overflow-x: hidden;
 }
 .imgs {
   margin-right: 10px;
 }
 .leftArrow {
   position: absolute;
-  left: -18px;
+  left: -13px;
   cursor: pointer;
 }
 .rightArrow {

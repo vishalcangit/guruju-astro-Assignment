@@ -1,0 +1,33 @@
+.faqContainer {
+  margin: 30px 0;
+  padding-bottom: 10px;
+  /* background-color: aqua; */
+  border-bottom: 1px solid #dddddd;
+}
+.faqContainer h2 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.listsContainer {
+  margin: 15px 0;
+}
+.list {
+  margin: 20px 0;
+}
+.question {
+  margin: 5px 0;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.ans {
+  font-weight: 400;
+  font-size: 12px;
+  color: #616161;
+  text-align: justify;
+  text-justify: inter-word;
+}
