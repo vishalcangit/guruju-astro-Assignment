@@ -1,0 +1,71 @@
+.flex {
+  display: inline;
+}
+.callnow {
+  width: 30vw;
+}
+.callnowContainer {
+  width: 248px;
+  height: 217px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.priceContainer span strong {
+  font-size: 20px;
+}
+.strikeoff {
+  color: #979797;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+
+.offerContainer {
+  gap: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.offerContainer span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #979797;
+}
+highlight {
+  color: #965efb;
+}
+.starContainer {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+diff {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.callNowBtn {
+  gap: 10px;
+  width: 240px;
+  height: 48px;
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 23px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #6b17ff 0%, #7f11f6 100%);
+}

@@ -1,0 +1,8 @@
+.bodyContainer {
+  margin-top: 50px;
+  width: 80vw;
+  margin-left: 10vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
