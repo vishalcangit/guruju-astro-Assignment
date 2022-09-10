@@ -69,3 +69,31 @@ button {
   justify-content: space-evenly;
   font-weight: 700;
 }
+.langBtnSmall,
+.menu {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .talk {
+    display: none;
+  }
+  .langBtn {
+    display: none;
+  }
+  .langBtnSmall {
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .walletBtn {
+    display: none;
+  }
+  .avatar {
+    display: none;
+  }
+  .menu {
+    display: inline;
+  }
+}

@@ -18,3 +18,8 @@
   margin: 10px 0;
   color: rgb(94, 86, 86);
 }
+@media screen and (max-width: 800px) {
+  .footerContainer {
+    display: none;
+  }
+}

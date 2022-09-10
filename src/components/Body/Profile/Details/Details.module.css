@@ -102,3 +102,44 @@
   right: 10px;
   cursor: pointer;
 }
+.actionBtns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .profileDetailscontainer {
+    margin-top: 30px;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .info {
+    width: 90vw;
+  }
+
+  .followers,
+  .served,
+  .exp {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .followers strong,
+  .served strong,
+  .exp strong {
+    font-size: 20px;
+  }
+  .lineOne {
+    flex-direction: column;
+  }
+  .lineTwo {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .rightArrow {
+    right: -10px;
+  }
+}

@@ -69,3 +69,38 @@ diff {
   justify-content: center;
   background: linear-gradient(180deg, #6b17ff 0%, #7f11f6 100%);
 }
+.callNowBtnSmall {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .callnow {
+    width: 98vw;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid #979797;
+  }
+  .callnowContainer {
+    padding: 0;
+    height: 80px;
+    border: none;
+    border-radius: 0%;
+    margin: 0%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+  }
+  .offerContainer {
+    position: absolute;
+    width: 50vh;
+    top: -30px;
+  }
+  .callNowBtn {
+    width: 100px;
+  }
+  .priceContainer{
+    
+  }
+}

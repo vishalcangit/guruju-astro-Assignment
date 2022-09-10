@@ -18,22 +18,27 @@ const Details = () => {
       <div className={styles.info}>
         <div className={styles.lineOne}>
           <div className={styles.name}>Liu Lucy</div>
-          <div className={styles.audio}>
-            <img src={audio} />
-            <p>37'</p>
+          <div className={styles.actionBtns}>
+            <div className={styles.audio}>
+              <img src={audio} />
+              <p>37'</p>
+            </div>
+            <div className={styles.followBtn}>Follow</div>
           </div>
-          <div className={styles.followBtn}>Follow</div>
         </div>
 
         <div className={styles.lineTwo}>
           <div className={styles.followers}>
-            Followers <strong>123</strong>
+            <span>Followers</span>
+            <strong>123</strong>
           </div>
           <div className={styles.served}>
-            Served <strong>36k</strong>
+            <span> Served</span>
+            <strong>36k</strong>
           </div>
           <div className={styles.exp}>
-            Exp(years) <strong>15</strong>
+            <span>Exp(years)</span>
+            <strong>15</strong>
           </div>
         </div>
         {/* languages */}

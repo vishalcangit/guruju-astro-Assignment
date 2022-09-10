@@ -14,7 +14,7 @@ const AllReviews = () => {
       <Link to="/">
         <div className={styles.reviewPageNavbar}>
           <img src={arrow} />
-          <p>Back to Liu Lucy’s page</p>
+          <p className={styles.shown}>Back to Liu Lucy’s page</p>
           <h3 className={styles.crHidden}>Customer reviews</h3>
         </div>
       </Link>

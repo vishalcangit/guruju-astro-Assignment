@@ -31,3 +31,10 @@
   text-align: justify;
   text-justify: inter-word;
 }
+@media screen and (max-width: 800px) {
+  .faqContainer {
+    width: 90vw;
+    margin-left: 5vw;
+    border: none;
+  }
+}

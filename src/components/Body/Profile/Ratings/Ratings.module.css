@@ -1,4 +1,5 @@
 .ratingsContaieer {
+  width: 60vw;
 }
 
 /* stars container code goes here */
@@ -203,4 +204,45 @@
   display: none;
 }
 
+@media screen and (max-width: 800px) {
+  .ratingsContaieer {
+    width: 90vw;
+    margin-left: 5vw;
+  }
 
+  .reviewPageNavbar {
+    width: 90%;
+  }
+  .starContainer {
+    width: 99%;
+    gap: 10px;
+    overflow: hidden;
+  }
+  .greyBar {
+    width: 160px;
+  }
+  .purpleBarFive {
+    width: 130.65px;
+  }
+  .purpleBarFour {
+    width: 100.65px;
+  }
+  .purpleBarThree {
+    width: 80.65px;
+  }
+  .purpleBarTwo {
+    width: 60.65px;
+  }
+  .purpleBarOne {
+    width: 40.65px;
+  }
+  .reviewPage {
+    width: 90%;
+  }
+  .shown {
+    display: none;
+  }
+  .crHidden {
+    display: inline;
+  }
+}
