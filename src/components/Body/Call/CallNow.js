@@ -28,7 +28,7 @@ const CallNow = () => {
         <div className={styles.starContainer}>
           <img src={star} />
           <div>
-            <diff>4.9 |</diff>
+            <diff>4.9&nbsp;|</diff>
             <span> 123 reviews</span>
           </div>
         </div>

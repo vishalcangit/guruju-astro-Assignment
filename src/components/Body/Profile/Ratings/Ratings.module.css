@@ -1,0 +1,91 @@
+.ratingsContaieer {
+  height: 1000px;
+}
+
+/* stars container code goes here */
+
+.starContainer {
+  margin: 40px 0;
+  gap: 50px;
+  display: flex;
+}
+.ratingAvg {
+  font-weight: 700;
+  font-size: 48px;
+}
+.ratingTotal {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 13px;
+  color: #707070;
+}
+
+/* right container{
+     */
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.fiveStar {
+  margin: 3px 0;
+  display: flex;
+  align-items: center;
+}
+.barContainer {
+  margin-left: 5px;
+  position: relative;
+}
+.star {
+  margin: 0 2px;
+}
+.greyBar {
+  width: 240px;
+  height: 6.05px;
+  background: #d8d8d8;
+  border-radius: 40px;
+}
+.purpleBarFive {
+  position: absolute;
+  top: 0px;
+  width: 230.65px;
+  height: 6.05px;
+  background: #965efb;
+  border-radius: 40px;
+}
+.purpleBarFour {
+  position: absolute;
+  top: 0px;
+  width: 200.65px;
+  height: 6.05px;
+  background: #965efb;
+  border-radius: 40px;
+}
+.purpleBarThree {
+  position: absolute;
+  top: 0px;
+  width: 150.65px;
+  height: 6.05px;
+  background: #965efb;
+  border-radius: 40px;
+}
+.purpleBarTwo {
+  position: absolute;
+  top: 0px;
+  width: 100.65px;
+  height: 6.05px;
+  background: #965efb;
+  border-radius: 40px;
+}
+.purpleBarOne {
+  position: absolute;
+  top: 0px;
+  width: 50.65px;
+  height: 6.05px;
+  background: #965efb;
+  border-radius: 40px;
+}
