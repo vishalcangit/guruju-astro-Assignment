@@ -3,6 +3,9 @@
   display: flex;
   border-bottom: 1px solid #dddddd;
 }
+.locater {
+  display: none;
+}
 .info {
   width: 80%;
   margin-left: 20px;
@@ -115,6 +118,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+  }
+  .locater {
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    font-size: 14px;
+    color: #8f8f8f;
+  }
+  strong {
+    color: black;
+  }
+  .pic {
+    margin-top: 30px;
   }
   .info {
     width: 90vw;

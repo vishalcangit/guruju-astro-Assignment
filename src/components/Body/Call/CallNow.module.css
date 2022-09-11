@@ -39,6 +39,7 @@
   color: #979797;
 }
 highlight {
+  font-weight: 700;
   color: #965efb;
 }
 .starContainer {
@@ -79,28 +80,44 @@ diff {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border-top: 1px solid #979797;
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
   }
   .callnowContainer {
-    padding: 0;
+    width: 95vw;
+    padding: 0 5px;
     height: 80px;
     border: none;
     border-radius: 0%;
     margin: 0%;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
   }
   .offerContainer {
     position: absolute;
-    width: 50vh;
-    top: -30px;
+    width: 100vw;
+    top: -20px;
+    background-color: white;
+    border-bottom: 1px solid #979797;
   }
   .callNowBtn {
-    width: 100px;
+    width: 150px;
   }
-  .priceContainer{
-    
+  .priceContainer {
+    gap: 10px;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .starContainer {
+    justify-content: flex-start;
+  }
+  diff {
+    font-size: 17px;
   }
 }

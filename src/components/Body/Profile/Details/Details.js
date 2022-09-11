@@ -12,6 +12,9 @@ import styles from "./Details.module.css";
 const Details = () => {
   return (
     <div className={styles.profileDetailscontainer}>
+      <div className={styles.locater}>
+        Home / Love / <strong>Liu Lucy</strong>
+      </div>
       <div className={styles.pic}>
         <img src={profilePic} />
       </div>
